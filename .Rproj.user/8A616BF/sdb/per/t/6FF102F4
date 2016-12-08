@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# creating function\n\nperm_without_replacement <- function(n, r){\n  return(factorial(n)/factorial(n - r))\n}\n\nhelloFunction <- function (word){\n  return(c(\"helloFunction\", word))\n}\n\n#16 choices, choose 16\nperm_without_replacement(16,16)\n\n#16 choices, choose 3\nperm_without_replacement(16,3)\n\nhelloFunction(\"donni\")\n",
+    "created" : 1472184571825.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "369171686",
+    "id" : "6FF102F4",
+    "lastKnownWriteTime" : 1454639998,
+    "last_content_update" : 1454639998,
+    "path" : "~/Dropbox/00 Semester 4/helloR/function.R",
+    "project_path" : "function.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

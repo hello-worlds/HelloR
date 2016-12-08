@@ -1,0 +1,17 @@
+{
+    "contents" : "nomor a\n\ndataset <- read.csv('data.csv')\n\nfage<-dataset['fage']\nmage<-dataset['mage']\nweeks<-dataset['weeks']\nvisits<-dataset['visits']\nweight<-dataset['weight']\n\nsummary(fage)\nsummary(mage)\nsummary(weeks)\nsummary(visits)\nsummary(weight)\n\nnomor b\ndataset <- read.csv('data.csv')\nweeks<-dataset['weeks'];\nweeks[is.na(weeks)] <- 0\nx<-1:nrow(weeks)\nplot(x,data.matrix(weeks))\n\nnomor c\ndataset <- read.csv('data.csv')\ncounts <- table(dataset$weeks)\ncounts\nbarplot(counts, main=\"Distribusi Lama Kehamilan\", \n        xlab=\"Lama Kehamilan (Minggu)\")\n\n#belum\nplot(counts,type=\"l\")\nx=seq(-1,1,length=100)\ny=dnorm(x)\npolygon(c(-1,x,1),c(0,y,0),col=\"lightgreen\")\ntext(0,0.15,\"68%\")\n\n\nnomor d\ndataset <- read.csv('data.csv')\nfage<-dataset['fage']\nmage<-dataset['mage']\nfage[is.na(fage)] <- 0\nmage[is.na(mage)] <- 0\ncor(fage, mage)\n\n\nnomor e\ndataset <- read.csv('data.csv')\nmage<-dataset['mage']\nmature<-dataset['mature']\nboxplot(dataset$mage~dataset$mature)\n\nnomor f\ndataset <- read.csv('data.csv')\nfage<-dataset['fage']\nmage<-dataset['mage']\nweeks<-dataset['weeks']\nvisits<-dataset['visits']\ngained<-dataset['gained']\n\nfage[is.na(fage)] <- 0\nweeks[is.na(weeks)] <- 0\nvisits[is.na(visits)] <- 0\ngained[is.na(gained)] <- 0\n\ndata <- data.frame(fage,mage,weight,visits,gained)\npca1 = prcomp(data, scale. = TRUE)\nsummary\npca1$sdev\n\n\nnomor g\ndataset <- read.csv('data.csv')\nweight<-dataset['weight']\nlowbirthweight<-dataset['lowbirthweight']\nboxplot(dataset$weight~dataset$lowbirthweight)\n\n\n\n",
+    "created" : 1432901498427.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3367135320",
+    "id" : "2903F298",
+    "lastKnownWriteTime" : 1432910128,
+    "path" : "~/RStudio/helloR/Remedial.R",
+    "project_path" : "Remedial.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

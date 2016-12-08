@@ -1,0 +1,17 @@
+{
+    "contents" : "# instalasi package\n# download package first\n\n# install package using package manager,\n# you can choose file or from online reposotory\n# you must use root\n# install.packages('gtools')\n# install.package('')\n\n# load library\nlibrary(gtools)\n\n# include script\nsource(\"function.R\")\n\n# using function from function.R\nhelloFunction(\"donni\")\n\n# if then else\nif (1==1) {\n  print(\"hallo from true\")\n} else {\n  print (\"hello from false\")\n}\n\n# while looping\nx <- 1\nwhile(x < 10){\n  x <- x+1\n  if(x==4){\n    next\n  }\n  if(x==7){\n    break\n  }\n  print(x)\n}\n\n# for to do\nfor (n in 1:10)\n{\n  print(sqrt(n))\n}\n\n# for downto do\nfor (n in 10:1)\n{\n  print(sqrt(n))\n}",
+    "created" : 1425895159409.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1737511408",
+    "id" : "B3EDC95A",
+    "lastKnownWriteTime" : 1425897111,
+    "path" : "~/RStudio/helloR/helloScript.R",
+    "project_path" : "helloScript.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

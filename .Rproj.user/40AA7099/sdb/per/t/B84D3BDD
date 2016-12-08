@@ -1,0 +1,17 @@
+{
+    "contents" : "# linear regression\nyear <- c(2000 ,   2001  ,  2002  ,  2003 ,   2004)\nrate <- c(9.34 ,   8.50  ,  7.62  ,  6.93  ,  6.60)\nplot(year,rate,\n     main=\"Commercial Banks Interest Rate for 4 Year Car Loan\",\n     sub=\"http://www.federalreserve.gov/releases/g19/20050805/\")\ncor(year,rate)\nfit <- lm(rate ~ year)\nattributes(fit)\nfit$coefficients[1]\nfit$coefficients[[1]]\nfit$coefficients[2]\nfit$coefficients[[2]]\nres <- rate - (fit$coefficients[[2]]*year+fit$coefficients[[1]])\nplot(year,res)\nplot(year,fit$residuals)\nplot(year,rate,\n     main=\"Commercial Banks Interest Rate for 4 Year Car Loan\",\n     sub=\"http://www.federalreserve.gov/releases/g19/20050805/\")",
+    "created" : 1426056862336.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2307203076",
+    "id" : "B84D3BDD",
+    "lastKnownWriteTime" : 1426057176,
+    "path" : "~/RStudio/helloR/linearregression.R",
+    "project_path" : "linearregression.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

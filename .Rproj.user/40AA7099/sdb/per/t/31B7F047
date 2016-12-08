@@ -1,0 +1,17 @@
+{
+    "contents" : "# creating function\n\nperm_without_replacement <- function(n, r){\n  return(factorial(n)/factorial(n - r))\n}\n\nhelloFunction <- function (word){\n  return(c(\"helloFunction\", word))\n}\n\n#16 choices, choose 16\nperm_without_replacement(16,16)\n\n#16 choices, choose 3\nperm_without_replacement(16,3)\n\nhelloFunction(\"donni\")\n",
+    "created" : 1425895613924.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "369171686",
+    "id" : "31B7F047",
+    "lastKnownWriteTime" : 1425896094,
+    "path" : "~/RStudio/helloR/function.R",
+    "project_path" : "function.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

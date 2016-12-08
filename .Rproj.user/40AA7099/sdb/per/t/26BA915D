@@ -1,0 +1,17 @@
+{
+    "contents" : "dataset <- read.csv('data.csv');\ndataset['habit']\ndataset['lowbirthweight']\n",
+    "created" : 1426064984232.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "721569992",
+    "id" : "26BA915D",
+    "lastKnownWriteTime" : 1426066110,
+    "path" : "~/RStudio/helloR/UTSIF5175number4.R",
+    "project_path" : "UTSIF5175number4.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

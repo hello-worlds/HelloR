@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1432903196448.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7816626",
+    "lastKnownWriteTime" : 4345487104,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "tempweeks",
+        "contentUrl" : "content?title=tempweeks&file=c2d3a809cc424e5880d920f6669310c7.htm",
+        "displayedObservations" : 1000,
+        "displayedVariables" : 1,
+        "totalObservations" : 1000,
+        "variables" : 1
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

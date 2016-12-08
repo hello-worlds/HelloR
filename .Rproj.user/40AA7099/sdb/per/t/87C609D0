@@ -1,0 +1,17 @@
+{
+    "contents" : "\n# permutation, combination\n\n# load library\nlibrary(gtools)\n\n#urn with 3 balls\nx <- c('red', 'blue', 'black')\n\n#pick 2 balls from the urn with replacement\n#get all permutations\npermutations(n=3,r=2,v=x,repeats.allowed=T)\n\n#pick 2 balls from the urn with replacement\n#get all permutations\npermutations(n=3,r=2,v=x)\n  \n#number of permutations\nnrow(permutations(n=3,r=2,v=x,repeats.allowed=T))\n\n#calculate the number of combinations without replacement/repetition\nchoose(24,4)\nchoose(n=24,k=4)",
+    "created" : 1425896043796.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "662150677",
+    "id" : "87C609D0",
+    "lastKnownWriteTime" : 1425901122,
+    "path" : "~/RStudio/helloR/permutation.R",
+    "project_path" : "permutation.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

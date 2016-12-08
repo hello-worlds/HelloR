@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "> library(gtools)\n> #permutasi dengan pengulangan\n> permutations(n=3, r=2, v=x, repeats.allowed=T)\n\n> #permutasi tanpa pengulangan\n> permutations(n=3, r=2, v=x)\t//tanpa pengulangan\n\n> #melihat banyak permutasi\n> nrow(permutations(n=3, r=2, v=x, repeats.allowed=T))\n\n> #permutasi tanpa pengulangan dengan fungsi\n> perm_without_replacement <- function(n, r){\n  + return(factorial(n)/factorial(n-r))\n  + }\n> perm_without_replacement(16,16)\n\n> #membuat fungsi kombinasi dengan pengembalian\n> comb_with_replacement <- function(n, r){\n    + return(factorial(n+r-1)/(factorial(r)*factorial(n-1)))\n    + }\n> comb_with_replacement(3,3)\n\n> # Define the cars vector with 5 values\n> cars <- c(1, 3, 6, 4, 9)\n> # Graph the cars vector with all defaults\n> plot(cars)\n> # Graph cars using blue points overlayed by a line\n> plot(cars, type=\"o\", col=\"blue\")\n> # Create a title with a red, bold/italic font\n> title(main=\"Autos\", col.main=\"red\", font.main=4)\n\n#Plotting Biasa\n> x = 1:10\n> y = 10:1\n> plot(x, type=\"o\", col=\"blue\")\n> plot(x,y,xlab = \"label1\", ylab = \"label2\", main=\"tabel contoh\")\n\n#Plotting dengan berbagai macam atribut di dalamnya\n> cars <- c(1, 3, 6, 4, 9)\n> trucks <- c(2, 5, 4, 5, 12)\n> # Calculate range from 0 to max value of cars and trucks\n> g_range <- range(0, cars, trucks)\n> plot(cars, type=\"o\", col=\"blue\", ylim=g_range, axes=FALSE, ann=FALSE)\n> axis(1, at=1:5, lab=c(\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\"))\n> axis(2, las=1, at=4*0:g_range[2])\n> box()\n> lines(trucks, type=\"o\", pch=22, lty=2, col=\"red\")\n> title(main=\"Autos\", col.main=\"red\", font.main=4)\n> title(xlab=\"Days\", col.lab=rgb(0,0.5,0))\n> title(ylab=\"Total\", col.lab=rgb(0,0.5,0))\n> legend(1, g_range[2], c(\"cars\",\"trucks\"), cex=0.8, col=c(\"blue\",\"red\"), pch=21:22, lty=1:2)\n\n#barchart\n> barplot(cars)\n\n#histogram chart\n> hist(cars)",
+    "created" : 1472184574840.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3636184594",
+    "id" : "5AAC4C2A",
+    "lastKnownWriteTime" : 1425901668,
+    "last_content_update" : 1425901668,
+    "path" : "~/Dropbox/00 Semester 4/helloR/FungsiDiR.R",
+    "project_path" : "FungsiDiR.R",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1432903159928.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E253BD1B",
+    "lastKnownWriteTime" : 4298827008,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "visits",
+        "contentUrl" : "content?title=visits&file=b9db1f973e6e46319a7baedc661b0ae2.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 1,
+        "totalObservations" : "1000",
+        "variables" : "1"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# another regression\nctl <- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)\ntrt <- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)\ngroup <- gl(2,10,20, labels=c(\"Ctl\",\"Trt\"))\nweight <- c(ctl, trt)\nlm.D9 <- lm(weight ~ group)\nlm.D90 <- lm(weight ~ group - 1) # omitting intercept\n\nanova(lm.D9)\nsummary(lm.D90)\n\nopar <- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))\nplot(lm.D90)\n# plot(lm.D9, las = 1)      # Residuals, Fitted, ...\npar(opar)",
+    "created" : 1472184528487.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2527430673",
+    "id" : "E0196632",
+    "lastKnownWriteTime" : 1426057504,
+    "last_content_update" : 1426057504,
+    "path" : "~/Dropbox/00 Semester 4/helloR/anotherlm.R",
+    "project_path" : "anotherlm.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1432901641350.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6C57FA73",
+    "lastKnownWriteTime" : 4317005568,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "dataset",
+        "contentUrl" : "content?title=dataset&file=3a0d84520a9d44358f49a57c55711bf6.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 13,
+        "totalObservations" : "1000",
+        "variables" : "13"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

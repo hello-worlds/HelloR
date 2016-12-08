@@ -1,0 +1,17 @@
+{
+    "contents" : "5 - 1 + 10\n7 * 10 / 2\npi\nsqrt(2)\nexp(1)\n\n# assignment\nx <- 5\n5 -> y\n\nprint(x)\nls()\n\n# remove x from memory\nrm(x)\nls()\n\n# vector\nseq(1,10,0.1)\nx <- 0 : 19\nx[5]\n\n# uniform distribution\n# find help runif\ny <- x + runif(20, min = 10, max = 20)\n\n# ploting\nplot(x, y)\n\n# mean\nmean(x)\n\n# variansi\nvar(x)\n\n# covariansi\ncor(x,y)\n\nsummary(x)\nsummary(x)['Median']\nsummary(x)['Min.']\n\nmode\n\nx <- seq(-3, 3, length = 101)\ny <- dnorm(x) # assign standard normal values to y\nplot(x, y, type = 'l') # 'l' stands for line\n\n\nx <- vector(mode = 'numeric', length = 100) #create the vector\nsink('x.txt') #open a text file named x.txt\nx #write the data to the file\nsink() #close the file\n\nv <- 1 : 10 # assign the vector of elements 1...10 to v\nv <- c(1, 5, 3) # c() concatenates its elements\n\nv <- vector()\nv <- vector(length = 10)\nv <- integer()\nv <- double(10)\nv <- character(10)\nx <- c('Alice', 'in', 'lalaland')\nz <- c(x,y)\nlength(x)\n\n\na <- 1 : 11\naverage <- sum(a) / length(a)\n\n\n# vector operation\nx <- 1.2 : 6.4\nx * 2\nx / 2\nx - 2\n\n\n(x <- 1 : 10) ; (y <- 1 : 10) ; x / y\n(x <- 1 : 5) ; sqrt(x)\n\ns <- c(\"Florida; a politician's\",'nightmare')\n\n# subset index vector\nx <- 15 : 30\nc(x[2], x[5])\nx[c(2, 5)]\n\n\n# asosiate\nx <- c(160, NA, 175, NA, 180)\ny <- c(50, 65, 65, 80, 70)\nnames(x) <- c(\"A. Smith\", \"B. Smith\", \"C. Smith\", \"D. Smith\", \"E. Smith\")\ncbind(x, y)\n\nx[c('B. Smith', 'D. Smith')]\n\nx <- runif(20) ; y <- runif(20) ;\nplot(x, y)\n# pairs(x,y) \n# coplot(x,y)\n# hist(x) \n# perspective(x,y)\n\nlines(x, y)\n\nmatrix(ncol=3,nrow=3,3)\n\nm <- matrix(1 : 20, ncol = 5, nrow = 4)\nm\n\ne <- read.csv('hello.csv')\ne\n\nhist(islands)",
+    "created" : 1425897281225.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "255590394",
+    "id" : "53B816B9",
+    "lastKnownWriteTime" : 1425900474,
+    "path" : "~/RStudio/helloR/basicUse.R",
+    "project_path" : "basicUse.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

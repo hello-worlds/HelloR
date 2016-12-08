@@ -1,0 +1,17 @@
+{
+    "contents" : "biaya <- c(40, 20, 25, 20, 30, 50, 40, 20, 50, 40, 25, 50)\npembeli <- c(385, 400, 395, 365, 475, 440, 490, 420, 560, 525, 480, 510)\n\nregression <- lm(pembeli ~ biaya)\nregression\nsummary(regression)\nplot(regression)\n\nprint(\"ini adalah model coeffisient\")\ncoef(regression)\nprint(\"menjadi persamaan regresi sebagai berikut\")\na<-coef(regression)['(Intercept)']\nb<-coef(regression)['biaya']\nprint(c(\"pembeli = \",a,\" + \", b,\"*biaya\"))\n\nnewBiaya=35:46\nnewBiaya\nhasil <- predict(regression, data.frame(biaya=newBiaya))\nprint(\"ini adalah hasil prediksi untuk biaya sama dengan 35 ribu rupiah (3.b)\")\nhasil[1]\n\nprint(\"ini adalah model residual error dari Y atau Banyaknya calon pembeli (3.c)\")\nresid(regression)\n\n",
+    "created" : 1426060959731.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2499083594",
+    "id" : "551AE8FB",
+    "lastKnownWriteTime" : 1426065190,
+    "path" : "~/RStudio/helloR/UTSIF5175number3.R",
+    "project_path" : "UTSIF5175number3.R",
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
